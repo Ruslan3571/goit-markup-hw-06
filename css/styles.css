@@ -450,6 +450,9 @@ h3 {
   justify-content: center;
 }
 .section-customers__item {
+}
+.section-customers__url {
+  display: inline-block;
   width: 170px;
   height: 92px;
   margin-right: 30px;
@@ -470,13 +473,14 @@ h3 {
   height: 60px;
   fill: #afb1b8;
 }
-.section-customers__item:hover,
-.section-customers__item:focus {
+.section-customers__url:hover,
+.section-customers__url:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-customers__item:hover .section-customers__icon,
-.section-customers__item:focus .section-customers__icon {
+.section-customers__url:hover .section-customers__icon,
+.section-customers__url:focus .section-customers__icon {
   fill: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
