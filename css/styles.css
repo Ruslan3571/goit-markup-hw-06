@@ -219,6 +219,7 @@ h3 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -228,6 +229,7 @@ h3 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   align-items: center;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -939,7 +941,7 @@ h3 {
   cursor: pointer;
 }
 
-.form-field input:hover,
+/* .form-field input:hover, */
 .form-field input:focus-visible {
   outline: 1px solid #2196f3;
   border-radius: 4px;
@@ -974,20 +976,20 @@ h3 {
   left: 15px;
 }
 
-.form-field:hover > .icon-person,
+/* .form-field:hover > .icon-person, */
 .form-field:focus-within > .icon-person {
   border: #2196f3;
   fill: #2196f3;
 }
 
-.form-field:hover > .icon-phone,
+/* .form-field:hover > .icon-phone, */
 .form-field:focus-within > .icon-phone {
   border: #2196f3;
   fill: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field:hover > .icon-email,
+/* .form-field:hover > .icon-email, */
 .form-field:focus-within > .icon-email {
   border: #2196f3;
   fill: #2196f3;
@@ -1000,9 +1002,12 @@ h3 {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   cursor: pointer;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
 }
 
-.form-field textarea:hover,
 .form-field textarea:focus {
   outline: 1px solid #2196f3;
   fill: #2196f3;
